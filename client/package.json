@@ -1,0 +1,41 @@
+{
+  "name": "ClientApp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --port=9009",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "date-fns": "^1.29.0",
+    "helmet-csp": "^2.7.0",
+    "socket.io-client": "^2.1.1",
+    "vue": "^2.5.13",
+    "vue-axios": "^2.1.2",
+    "vue-router": "^3.0.1",
+    "vue-socket.io": "^2.1.1-b",
+    "vuetify": "^1.0.9"
+  },
+  "devDependencies": {
+    "@babel/core": "7.0.0-beta.41",
+    "@babel/preset-stage-2": "7.0.0-beta.44",
+    "@vue/cli-plugin-babel": "^3.0.0-beta.6",
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.6",
+    "@vue/cli-service": "^3.0.0-beta.6",
+    "@vue/eslint-config-airbnb": "^3.0.0-beta.6",
+    "css-loader": "^0.28.11",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "style-loader": "^0.20.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.5.13"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

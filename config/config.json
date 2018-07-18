@@ -1,0 +1,11 @@
+{
+  "development": {
+    "username": null,
+    "password": null,
+    "database": "mainDb",
+    "dialect": "sqlite",
+    "storage": "db/db.sqlite",
+    "operatorsAliases": false,
+    "logging": false
+  }
+}
