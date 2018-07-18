@@ -15,7 +15,7 @@ io.on('connection', (socket) => {
     console.log("io on connect");
 });
 
-app.use(express.static(path.join(__dirname, '/client')));
+app.use(express.static(path.join(__dirname, '/client/dist')));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
